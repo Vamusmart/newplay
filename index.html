@@ -1,232 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="description" content="Playground, frizzante web agency di Milano, esperta in web-design, e-commerce e Web Marketing. Creatività e innovazione, SEO business e brand identity speciali">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Hello Playground</title>
-      <!-- font awesome icon socials cdn link  -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!-- custom css file link  -->
-      <link rel="stylesheet" href="css/style.css">
-   </head>
-   <body>
-      <!-- header section starts  -->
-      <header id="navbar">
-         <a href="#" class="logo"><img  width="150" height="22" src="./images/logo-playground-white.png" alt="Playground logo" class="logo"></a>
-         <ul class="nav-links">
-            <li><a href="#weare">we are</a></li>
-            <li><a href="#wedo">we do</a></li>
-            <li><a href="#careers">careers</a></li>
-            <li><a href="#contactus">contact</a></li>
-         </ul>
-         <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-         </div>
-      </header>
-      <!-- header section ends -->
-      <!-- home section starts  -->
-      <section class="home" id="home">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="description"
+      content="Playground, frizzante web agency di Milano, esperta in web-design, e-commerce e Web Marketing. Creatività e innovazione, SEO business e brand identity speciali">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hello Playground</title>
+   <!-- font awesome icon socials cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <!-- header section starts  -->
+   <header id="navbar">
+      <a href="#" class="logo"><img width="150" height="22" src="./images/logo-playground-white.png"
+            alt="Playground logo" class="logo"></a>
+      <ul class="nav-links">
+         <li><a href="#weare">we are</a></li>
+         <li><a href="#wedo">we do</a></li>
+         <li><a href="#careers">careers</a></li>
+         <li><a href="#contactus">contact</a></li>
+      </ul>
+      <div class="burger">
+         <div class="line1"></div>
+         <div class="line2"></div>
+         <div class="line3"></div>
+      </div>
+   </header>
+   <!-- header section ends -->
+   <!-- home section starts  -->
+   <section class="home" id="home">
+      <div class="content">
+         <!-- Slides section starts  -->
+         <section class="features" id="features">
+            <div class="slideshow-container">
+               <!-- Full-width images with caption text -->
+               <div class="mySlides fade">
+                  <img width="1440" height="798" src="images/slide-hello.jpg" alt="hello-playground">
+                  <div class="text">
+                     <h1>lorem<br><span>Ipsum</span></h1>
+                     <!--                      <p>Consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+ -->
+                  </div>
+               </div>
+               <div class="mySlides fade">
+                  <img width="1440" height="798" src="images/slide-play.jpg" alt="play-playground">
+                  <div class="text">
+                     <h1>Quis<br><span>Autem</span></h1>
+                     <!--                      <p>Lectus dolor feugiat elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. </p>
+ -->
+                  </div>
+               </div>
+               <div class="mySlides fade">
+                  <img width="1440" height="798" src="images/slide-circle.jpg" alt="circle-playground">
+                  <div class="text">
+                     <h1>Nemo<br><span>Enim</span></h1>
+                     <!--                      <p>Tristique dignissim est elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                     </p> -->
+                  </div>
+               </div>
+               <!-- Next and previous buttons -->
+               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" onclick="plusSlides(1)">&#10095;</a>
+               <!-- The dots/circles -->
+               <div class="box-circles">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+               </div>
+            </div>
+         </section>
+         <!-- slides section ends  -->
+         <!-- box section starts  -->
+         <section class="card" id="card">
+            <div class="box-container">
+               <div class="box">
+                  <div class="box-pic"> <img width="499" height="212" src="./images/card-play-harder.jpg"
+                        alt="play-harder-card"></div>
+                  <div class="box-text">
+                     <p>
+                        Aenean mollis dolor sit amet, et mei esse porro consetetur, an sea affert temporibus, ut mel
+                        cunvenire duis quando vulputate ut.
+                     </p>
+                  </div>
+                  <a href="#" class="btn">read more</a>
+               </div>
+               <div class="box">
+                  <div class="box-pic"> <img width="477" height="212" src="./images/card-simplicity.jpg"
+                        alt="simplicity-card"></div>
+                  <div class="box-text">
+                     <p>
+                        Donec vitae dolor sit amet, pri justo prompta ad, at mea labore labitur efficiantur urna.
+                     </p>
+                  </div>
+                  <a href="#" class="btn">read more</a>
+               </div>
+               <div class="box">
+                  <div class="box-pic"> <img width="363" height="134" src="./images/card-innovation.jpg"
+                        alt="innovation-card"></div>
+                  <div class="box-text">
+                     <p>
+                        Suspendisse vehicula ad, ut vim soluta omittam percipitur lacus.
+                     </p>
+                  </div>
+                  <a href="#" class="btn">read more</a>
+               </div>
+            </div>
+         </section>
+         <!-- box sections ends  -->
+         <!-- About column section starts  -->
+         <section class="about">
+            <div class="column" id="weare">
+               <div class="image">
+                  <img width="1440" height="600" src="images/banner-we-are.jpg" alt="we-are-playground">
+               </div>
+               <div class="content">
+                  <h1 class="heading">we<br><span>are.</span></h1>
+                  <p>Consectetur adipisci elit.<br><span>Nulla condimentum tortor.</span></p>
+                  <div class="buttons">
+                     <a href="#" class="btn">the players > </a>
+                  </div>
+               </div>
+            </div>
+            <div class="column" id="wedo">
+               <div class="image">
+                  <img width="1440" height="600" src="images/banner-we-do.jpg" alt="we-do-playground">
+               </div>
+               <div class="content">
+                  <h1 class="heading">we<br><span>do.</span></h1>
+                  <p>Consectetur adipisci elit.<br><span>Nulla condimentum tortor.</span></p>
+                  <div class="buttons">
+                     <a href="#" class="btn">the projects > </a>
+                  </div>
+               </div>
+            </div>
+            <div class="column" id="careers">
+               <div class="image">
+                  <img width="1440" height="600" src="images/banner-carrers.jpg" alt="carrers-playground">
+               </div>
+               <div class="content">
+                  <h1 class="heading">careers.</h1>
+                  <p>Consectetur adipisci elit.<br><span>Nulla condimentum tortor.</span></p>
+                  <div class="buttons">
+                     <a href="#" class="btn">the positions > </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- column section ends  -->
+         <!-- AjaxCalls section starts -->
+         <section class="colajx mainajx">
+            <div id="update">
+               <h3>
+                  The value of history and the quality of Made in Italy combined with a vision of creative, sustainable, and respectful fashion. </h3>
+               <p>
+                  Our mission is to transform ideas into concrete, creative, and sustainable projects, capable of
+                  standing out in today’s competitive world.
+               </p>
+               <br />
+               <h4>
+                  People and Opportunities </h4>
+               <p>
+                  If you love challenges, teamwork, and want to contribute to innovative projects, here you will find
+                  the right place to grow and make a difference.
+               </p>
+            </div>
+         </section>
+         <aside class="colajx sidebar">
+            <div class="image">
+               <!--                <img width="1440" height="600" src="images/shop.jpg" alt="we-do-playground" />
+ -->
+            </div>
+         </aside>
+      </div>
+   </section>
+   <!-- AjaxCalls section ends -->
+   <!-- contactUs section starts  -->
+   <section class="contact" id="contactus">
+      <div class="column">
          <div class="content">
-            <!-- Slides section starts  -->
-            <section class="features" id="features">
-               <div class="slideshow-container">
-                  <!-- Full-width images with caption text -->
-                  <div class="mySlides fade">
-                     <img  width="1440" height="798" src="images/slide-hello.jpg" alt="hello-playground">
-                     <div class="text">
-                        <h1>lorem<br><span>Ipsum</span></h1>
-                        <p>Consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
-                     </div>
-                  </div>
-                  <div class="mySlides fade">
-                     <img  width="1440" height="798" src="images/slide-play.jpg" alt="play-playground">
-                     <div class="text">
-                        <h1>Quis<br><span>Autem</span></h1>
-                        <p>Lectus dolor feugiat elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. </p>
-                     </div>
-                  </div>
-                  <div class="mySlides fade">
-                     <img  width="1440" height="798" src="images/slide-circle.jpg" alt="circle-playground">
-                     <div class="text">
-                        <h1>Nemo<br><span>Enim</span></h1>
-                        <p>Tristique dignissim est elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
-                     </div>
-                  </div>
-                  <!-- Next and previous buttons -->
-                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                  <!-- The dots/circles -->
-                  <div class="box-circles">
-                     <span class="dot" onclick="currentSlide(1)"></span>
-                     <span class="dot" onclick="currentSlide(2)"></span>
-                     <span class="dot" onclick="currentSlide(3)"></span>
-                  </div>
-               </div>
-            </section>
-            <!-- slides section ends  -->
-            <!-- box section starts  -->
-            <section class="card" id="card">
-               <div class="box-container">
-                  <div class="box">
-                     <div class="box-pic"> <img  width="499" height="212" src="./images/card-play-harder.jpg" alt="play-harder-card"></div>
-                     <div class="box-text">
-                        <p>
-                           Aenean mollis dolor sit amet, et mei esse porro consetetur, an sea affert temporibus, ut mel cunvenire duis quando vulputate ut.
-                        </p>
-                     </div>
-                     <a href="#" class="btn">read more</a>
-                  </div>
-                  <div class="box">
-                     <div class="box-pic"> <img  width="477" height="212" src="./images/card-simplicity.jpg" alt="simplicity-card"></div>
-                     <div class="box-text">
-                        <p>
-                           Donec vitae dolor sit amet, pri justo prompta ad, at mea labore labitur efficiantur urna.
-                        </p>
-                     </div>
-                     <a href="#" class="btn">read more</a>
-                  </div>
-                  <div class="box">
-                     <div class="box-pic"> <img  width="363" height="134" src="./images/card-innovation.jpg" alt="innovation-card"></div>
-                     <div class="box-text">
-                        <p>
-                           Suspendisse vehicula ad, ut vim soluta omittam percipitur lacus.
-                        </p>
-                     </div>
-                     <a href="#" class="btn">read more</a>
-                  </div>
-               </div>
-            </section>
-            <!-- box sections ends  -->
-            <!-- About column section starts  -->
-            <section class="about">
-               <div class="column" id="weare">
-                  <div class="image">
-                     <img  width="1440" height="600" src="images/banner-we-are.jpg" alt="we-are-playground">
-                  </div>
-                  <div class="content">
-                     <h1 class="heading">we<br><span>are.</span></h1>
-                     <p>Consectetur adipisci elit.<br><span>Nulla condimentum tortor.</span></p>
-                     <div class="buttons">
-                        <a href="#" class="btn">the players > </a>
-                     </div>
-                  </div>
-               </div>
-               <div class="column" id="wedo">
-                  <div class="image">
-                     <img  width="1440" height="600" src="images/banner-we-do.jpg" alt="we-do-playground">
-                  </div>
-                  <div class="content">
-                     <h1 class="heading">we<br><span>do.</span></h1>
-                     <p>Consectetur adipisci elit.<br><span>Nulla condimentum tortor.</span></p>
-                     <div class="buttons">
-                        <a href="#" class="btn">the projects > </a>
-                     </div>
-                  </div>
-               </div>
-               <div class="column" id="careers">
-                  <div class="image">
-                     <img width="1440" height="600" src="images/banner-carrers.jpg" alt="carrers-playground">
-                  </div>
-                  <div class="content">
-                     <h1 class="heading">careers.</h1>
-                      <p>Consectetur adipisci elit.<br><span>Nulla condimentum tortor.</span></p>
-                     <div class="buttons">
-                        <a href="#" class="btn">the positions > </a>
-                     </div>
-                  </div>
-               </div>
-            </section>
-            <!-- column section ends  -->
-            <!-- AjaxCalls section starts -->
-            <section  class="container-ajx">
-               <div class="flex-ajx">
-                  <aside class="colajx sidebar">
-                     <div id="load-1" onclick="ajaxCall()">❮ Vestibolum at odio sit amet ❯</div>
-                     <div id="load-2" onclick="ajaxCall()">Sed vehicula neque</div>
-                     <div id="load-3" onclick="ajaxCall()">Nulla id libero pretium</div>
-                  </aside>
-                  <section class="colajx mainajx">
-                     <div id="update">Vestibulum at odio sit amet diam consectetur congue.,Donec imperdiet tincidunt nisi non dignissim.,Maecenas diam metus, fermentum a velit ut, auctor consequat ligula.,In ultrices lobortis venenatis.,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque dignissim sit amet lectus ac tincidunt.,Quisque bibendum mi at tempus tempus.,Suspendisse pretium, quam eu faucibus cursus, nunc leo pharetra justo, ut rutrum lorem ipsum quis velit.,Aenean imperdiet molestie dignissim.,Curabitur faucibus nulla metus, vel ornare libero accumsan eget.</div>
-                     <div id="update"></div>
-                     <div id="update"></div>
-                  </section>
-               </div>
-            </section>
-            <!-- AjaxCalls section ends -->
-            <!-- contactUs section starts  -->
-            <section class="contact" id="contactus">
-               <div class="column">
-                  <div class="content">
-                     <h1 class="heading">contact<br><span>us.</span></h1>
-                     <p>Playground<br><span>Via Manzoni, 34<br><span>Milano<br><span>-<br><span>T - +39 027687564</span></p>
-                  </div>
-                  <form name="contact-form" onsubmit="return false">
-                     <div class="container">
-                        <div id="display_message"></div>
-                        <div class="login">
-                           <input type="text" placeholder="name" class="input" id="firstname">
-                           <input type="text" placeholder="last name" class="input" id="lastname">
-                        </div>
-                        <div class="email">
-                           <input type="email" placeholder="email" class="input" id="email" required>
-                        </div>
-                        <div class="msg">
-                           <textarea  class="area" placeholder="message" required  id="message"></textarea>
-                        </div>
-                        <div class="btn" onclick="sendContact();">Send ></div>
-                     </div>
-                  </form>
-               </div>
-            </section>
-            <!-- contact section ends  -->
+            <h1 class="heading">contact<br><span>us.</span></h1>
+            <p>Playground<br><span>Via Manzoni, 34<br><span>Milano<br><span>-<br><span>T - +39 027687564</span></p>
          </div>
-      </section>
-      <!-- home section ends  -->
-      <!-- footer starts  -->
-      <div class="footer">
-         <div class="box-container">
-            <a href="#" class="logo"><img  width="150" height="22" src="./images/logo-playground-white.png" alt="Playground-logo" class="logo"></a>
-            <div class="nav-footer">
-               <ul>
-                  <li><a href="#weare">we are</a></li>
-                  <li><a href="#wedo">we do</a></li>
-                  <li><a href="#careers">careers</a></li>
-                  <li><a href="#contactus">contact us</a></li>
-               </ul>
+         <form name="contact-form" onsubmit="return false">
+            <div class="container">
+               <div id="display_message"></div>
+               <div class="login">
+                  <input type="text" placeholder="name" class="input" id="firstname">
+                  <input type="text" placeholder="last name" class="input" id="lastname">
+               </div>
+               <div class="email">
+                  <input type="email" placeholder="email" class="input" id="email" required>
+               </div>
+               <div class="msg">
+                  <textarea class="area" placeholder="message" required id="message"></textarea>
+               </div>
+               <div class="btn" onclick="sendContact();">Send ></div>
             </div>
-            <div>
-               <ul class="socials">
-                  <li><a href="https://www.facebook.com/" rel="noreferrer" aria-label="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="https://www.linkedin.com/" rel="noreferrer" aria-label="Linkedin" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-                  <li><a href="https://www.instagram.com/" rel="noreferrer" aria-label="Instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
-               </ul>
-            </div>
-            <!-- <p>
-               <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                   <img style id="w3c"="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS-Valido!" />
-               </a>
-               </p> -->
+         </form>
+      </div>
+   </section>
+   <!-- contact section ends  -->
+   </div>
+   </section>
+   <!-- home section ends  -->
+   <!-- footer starts  -->
+   <div class="footer">
+      <div class="box-container">
+         <a href="#" class="logo"><img width="150" height="22" src="./images/logo-playground-white.png"
+               alt="Playground-logo" class="logo"></a>
+         <div class="nav-footer">
+            <ul>
+               <li><a href="#weare">we are</a></li>
+               <li><a href="#wedo">we do</a></li>
+               <li><a href="#careers">careers</a></li>
+               <li><a href="#contactus">contact us</a></li>
+            </ul>
+         </div>
+         <div>
+            <ul class="socials">
+               <li><a href="https://www.facebook.com/" rel="noreferrer" aria-label="Facebook" target="_blank"><i
+                        class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.linkedin.com/" rel="noreferrer" aria-label="Linkedin" target="_blank"><i
+                        class="fa fa-linkedin-square"></i></a></li>
+               <li><a href="https://www.instagram.com/" rel="noreferrer" aria-label="Instagram" target="_blank"><i
+                        class="fa fa-instagram"></i></a></li>
+            </ul>
          </div>
       </div>
-      <!-- footer ends -->
-      <!-- CookiePolicy starts  -->
-      <div class="wrapper">
-         <div id="consent-popup"class="hidden">
-            <p>This website uses cookies to improve your experience. Find out more in our
-               <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
-            </p>
-            <div class="item">
-               <a id="accept" href="#">OK</a>
-            </div>
+   </div>
+   <!-- footer ends -->
+   <!-- CookiePolicy starts  -->
+   <div class="wrapper">
+      <div id="consent-popup" class="hidden">
+         <p>This website uses cookies to improve your experience. Find out more in our
+            <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
+         </p>
+         <div class="item">
+            <a id="accept" href="#">OK</a>
          </div>
       </div>
-      <!-- CookiePolicy starts  -->
-      <!-- JavaScript section start -->
-      <script src="main.js" type="text/javascript"></script>
-      <!-- JavaScript section end -->
-   </body>
+   </div>
+   <!-- CookiePolicy starts  -->
+   <!-- JavaScript section start -->
+   <script src="main.js" type="text/javascript"></script>
+   <!-- JavaScript section end -->
+</body>
+
 </html>
